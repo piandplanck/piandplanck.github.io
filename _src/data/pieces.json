@@ -1,0 +1,144 @@
+[
+ {
+  "id": "002_tycho_kepler",
+  "slug": "tycho-kepler",
+  "date": "2026-10-24",
+  "topic": "Astronomy",
+  "title": "Tycho’s Data, Kepler’s Laws",
+  "title_fa": "داده‌های تیکو، قوانین کپلر",
+  "caption": "Tycho Brahe died on this day, 24 Oct 1601. His naked-eye Mars data, good to about 1 arcminute, let Kepler show that orbits are ellipses. Mars's orbit is only 0.4% narrower than a circle.",
+  "caption_fa": "تیکو براهه در چنین روزی، ۲۴ اکتبر ۱۶۰۱، درگذشت. داده‌های مریخِ او، که با چشم غیرمسلح و تا حدود یک دقیقهٔ قوسی دقیق بود، به کپلر نشان داد مدارها بیضی‌اند. مدار مریخ فقط ۰٫۴ درصد از دایره باریک‌تر است.",
+  "alt": "Infographic titled Tycho's Data, Kepler's Laws. Left: a hand-coloured 1598 engraving of Tycho Brahe at his mural quadrant, a huge quadrant fixed to an observatory wall. Centre: the orbits of Earth (cyan) and Mars (copper) at true scale, with the Sun slightly off-centre at one focus. Two gold wedges from the Sun, one at Mars's closest point (206.7 million km) and one at its farthest (249.3 million), have equal areas; each covers 86 days. Mars's orbit is only 0.4 percent narrower than a circle. Right: Kepler's three laws: planets move on ellipses with the Sun at one focus; equal areas in equal times; the square of a planet's year is proportional to the cube of its distance, with a table for Mercury to Saturn where T squared over a cubed is about 1. Bottom cards: Tycho Brahe dies in Prague on 24 October 1601; his typical error was about 1 arcminute; the laws were published in 1609 and 1619.",
+  "alt_fa": "اینفوگرافیک «داده‌های تیکو، قوانین کپلر». سمت راست: حکاکی رنگ‌آمیزی‌شدهٔ ۱۵۹۸ از تیکو براهه کنار ربع‌دایرهٔ دیواری‌اش، ربع‌دایره‌ای بزرگ که روی دیوار رصدخانه نصب شده بود. وسط: مدار زمین (آبی) و مریخ (مسی) در مقیاس واقعی، با خورشید کمی بیرون از مرکز، در یکی از دو کانون. دو گوهٔ طلایی از خورشید، یکی در نزدیک‌ترین نقطه و یکی در دورترین نقطه، مساحت برابر دارند و هر کدام ۸۶ روز، یک‌هشتم سال مریخی، را پوشش می‌دهند؛ فاصلهٔ مریخ از خورشید در نزدیک‌ترین نقطه ۲۰۶٫۷ و در دورترین نقطه ۲۴۹٫۳ میلیون کیلومتر است. مدار مریخ فقط ۰٫۴ درصد از دایره باریک‌تر است. سمت چپ: سه قانون کپلر. قانون اول: سیاره‌ها روی بیضی می‌گردند و خورشید در یک کانون است. قانون دوم: در زمان‌های برابر، مساحت‌های برابر. قانون سوم: مربع طول سال سیاره با مکعب فاصلهٔ آن متناسب است، همراه جدولی از عطارد تا زحل که در آن T² ÷ a³ برای همه تقریباً ۱ است. کارت‌های پایین: ۲۴ اکتبر ۱۶۰۱، مرگ تیکو براهه در پراگ؛ خطای معمول تیکو حدود یک دقیقهٔ قوسی، یک‌شصتم درجه؛ قوانین در ۱۶۰۹ و ۱۶۱۹ منتشر شدند.",
+  "sources": [
+   "MacTutor: Tycho Brahe; Johannes Kepler (Univ. of St Andrews)",
+   "NASA NSSDCA Planetary Fact Sheet (metric)",
+   "Kepler, Astronomia Nova (1609), Smithsonian Libraries scan",
+   "High Altitude Observatory (UCAR), Tycho Brahe",
+   "Tycho, Astronomiae instauratae mechanica (1598), public domain"
+  ]
+ },
+ {
+  "id": "003_billion_seconds",
+  "slug": "billion-seconds",
+  "date": "2026-10-25",
+  "topic": "Numbers",
+  "title": "A Billion Seconds",
+  "title_fa": "یک میلیارد ثانیه",
+  "caption": "One billion seconds is about 31.7 years. One million is only 11.6 days. One trillion? About 31,700 years. The same word-ending hides huge steps.",
+  "caption_fa": "یک میلیارد ثانیه حدود ۳۱٫۷ سال است. یک میلیون ثانیه فقط ۱۱٫۶ روز. یک تریلیون؟ حدود ۳۱٬۷۰۰ سال.",
+  "alt": "Infographic titled A Billion Seconds. Left: a photograph of a NIST ytterbium optical clock, laser beams in red, yellow and green crossing a dark laboratory, and a card saying 9,192,631,770 periods of caesium-133 radiation make exactly one second. Centre: a grid of 32 squares, one per year; 31 are full and the last is 69 percent filled, labelled 31.7 years, equal to 1,000,000,000 seconds, with each year 31,556,952 seconds. Right: a log-scale ladder of bars for 1 minute (60 seconds), 1 hour, 1 day, 1 week, 1 million seconds (11.6 days), 1 year, 1 billion seconds (31.7 years) and 1 trillion seconds (about 31,700 years). Bottom cards: 11.6 days is one million seconds; 31.7 years is one billion; 31,700 years is one trillion.",
+  "alt_fa": "اینفوگرافیک «یک میلیارد ثانیه». سمت راست: عکس ساعت نوری ایتربیوم در NIST، پرتوهای لیزر قرمز، زرد و سبز در آزمایشگاهی تاریک، و کارتی که می‌گوید ۹٬۱۹۲٬۶۳۱٬۷۷۰ دورهٔ تابش سزیم-۱۳۳ دقیقاً یک ثانیه است. وسط: شبکه‌ای از ۳۲ مربع، هر مربع یک سال؛ ۳۱ مربع پر است و آخری ۶۹ درصد پر شده، با عنوان ۳۱٫۷ سال برابر با ۱٬۰۰۰٬۰۰۰٬۰۰۰ ثانیه؛ هر سال ۳۱٬۵۵۶٬۹۵۲ ثانیه است. سمت چپ: نردبان لگاریتمی نوارها برای ۱ دقیقه (۶۰ ثانیه)، ۱ ساعت، ۱ روز، ۱ هفته، ۱ میلیون ثانیه (۱۱٫۶ روز)، ۱ سال، ۱ میلیارد ثانیه (۳۱٫۷ سال) و ۱ تریلیون ثانیه (حدود ۳۱٬۷۰۰ سال). کارت‌های پایین: ۱۱٫۶ روز یک میلیون ثانیه است؛ ۳۱٫۷ سال یک میلیارد؛ ۳۱٬۷۰۰ سال یک تریلیون.",
+  "sources": [
+   "BIPM, The International System of Units (SI Brochure), 9th edition, version 4.01 (2026), section 2.3.1 'The second', printed p. 126",
+   "IAU SOFA, Time Scale and Calendar Tools (2016), mean Gregorian year 365.2425 days, printed p. 5",
+   "Heavner et al., The Realization of the SI Second and Generation of UTC(NIST), NCSL International 2007",
+   "Image: N. Phillips/NIST, ytterbium clock 16PML015 (NIST, US government work)"
+  ]
+ },
+ {
+  "id": "004_monty_hall",
+  "slug": "monty-hall",
+  "date": "2026-10-26",
+  "topic": "Probability",
+  "title": "The Monty Hall Problem",
+  "title_fa": "مسئلهٔ مونتی هال",
+  "caption": "Pick a door, the host opens a goat door, and offers a switch. Switch! It wins 2 times in 3. In 100,000 simulated games, switching won 66.4% and staying 33.6%.",
+  "caption_fa": "دری را انتخاب می‌کنید، مجری دری با بز را باز می‌کند و تعویض پیشنهاد می‌دهد. تعویض کنید! ۲ از ۳ بار می‌برید. در ۱۰۰٬۰۰۰ بازی شبیه‌سازی‌شده تعویض ۶۶٫۴٪ و ماندن ۳۳٫۶٪ بُرد.",
+  "alt": "Infographic titled The Monty Hall Problem. Left: three doors; door 1 is outlined in gold and labelled you pick, door 2 is still shut, door 3 stands open showing a goat; three rules: the host knows where the car is, always opens a door hiding a goat, and always offers the switch. Centre: the three equally likely cases, each with probability 1/3. Car behind door 1: staying wins, switching loses. Car behind door 2: the host must open door 3, switching wins. Car behind door 3: the host must open door 2, switching wins. Right: a line chart of the running win rate over the first 600 simulated games converging to 2/3 for switching and 1/3 for staying, and bars from 100,000 simulated games: switch 66.4 percent, stay 33.6 percent. Bottom cards: 1/3 chance if you stay; 2/3 if you switch; Selvin's 1975 letters and vos Savant's 1990 column.",
+  "alt_fa": "اینفوگرافیک «مسئلهٔ مونتی هال». سمت راست: سه در؛ در ۱ با خط طلایی و برچسب «انتخاب شما»، در ۲ هنوز بسته و در ۳ باز با یک بز؛ سه قاعده: مجری می‌داند ماشین کجاست، همیشه دری با بز را باز می‌کند و همیشه تعویض را پیشنهاد می‌دهد. وسط: سه حالت هم‌احتمال، هرکدام با احتمال ۱/۳. ماشین پشت در ۱: ماندن می‌برد و تعویض می‌بازد. ماشین پشت در ۲: مجری باید در ۳ را باز کند و تعویض می‌برد. ماشین پشت در ۳: مجری باید در ۲ را باز کند و تعویض می‌برد. سمت چپ: نمودار خطی نرخ برد تجمعی در ۶۰۰ بازی نخست که برای تعویض به ۲/۳ و برای ماندن به ۱/۳ نزدیک می‌شود، و میله‌های ۱۰۰٬۰۰۰ بازی: تعویض ۶۶٫۴ درصد، ماندن ۳۳٫۶ درصد. کارت‌های پایین: ۱/۳ اگر بمانید؛ ۲/۳ اگر تعویض کنید؛ نامه‌های سلوین (۱۹۷۵) و ستون ووس ساوانت (۱۹۹۰).",
+  "sources": [
+   "Univ. of Illinois Grainger Engineering, BIOE 582 (Fall 2017), Lecture 5: Monty Hall (assumptions p. 3, solution p. 6)",
+   "R. D. Gill, The Monty Hall Problem, Mathematical Institute, Leiden University (17 March 2011)",
+   "J. S. Rosenthal, Monty Hall, Monty Fall, Monty Crawl, Math Horizons, September 2008, pp. 5-7",
+   "S. Selvin, A problem in probability, The American Statistician 29(1), 67 (Feb 1975); On the Monty Hall problem, 29(3), 134 (Aug 1975)",
+   "M. Whitmeyer, The Monty Hall problem as a Bayesian game, Games 8(3), 31 (2017), doi:10.3390/g8030031",
+   "M. vos Savant, Ask Marilyn, Parade Magazine, 9 September 1990 (cited by date only)",
+   "Photo (18:00 post): Nilo Velez, WordPress Photo Directory, CC0"
+  ]
+ },
+ {
+  "id": "005_kls",
+  "slug": "kls",
+  "date": "2026-10-27",
+  "topic": "Geometry and probability",
+  "title": "The KLS Conjecture",
+  "title_fa": "حدس KLS",
+  "caption": "A 1995 question: in any dimension, is a flat cut always nearly the cheapest way to split a balanced convex shape? Three proofs were posted in 2026; verification is ongoing. Here are the question and the bounds that led here.",
+  "caption_fa": "پرسشی از ۱۹۹۵: در هر بُعدی، آیا یک برش تخت همیشه تقریباً ارزان‌ترین راه برای دوپاره‌کردن یک شکل محدب متعادل است؟ سه اثبات در ۲۰۲۶ منتشر شده و راستی‌آزمایی ادامه دارد.",
+  "alt": "Infographic titled The KLS Conjecture. Left: a disc cut in two equal halves by a flat line of length 2.00 or by a wavy dashed curve of length 2.26, with the statement Var f is at most C times the mean squared gradient, C independent of dimension. Centre: a line chart over dimensions 1 to 1000 of exact Poincare constants for isotropic shapes: Gaussian 1, cube 12 over pi squared, about 1.216, ball falling from 1.216 toward 1 (1.0010 at n=1000). Right: the best known upper bounds by year, from square root of n in 1995 through n to the 1/4 (2017/2024), subpolynomial (2021), polylogarithmic (2022 to 2026), to a constant claimed by three 2026 preprints. Bottom cards: posed in 1995; three preprints claim a proof; verification is ongoing.",
+  "alt_fa": "اینفوگرافیک «حدس KLS». سمت راست: یک قرص که با خط تخت به طول ۲٫۰۰ یا با منحنی موجی خط‌چین به طول ۲٫۲۶ به دو نیمهٔ هم‌مساحت تقسیم شده، با گزارهٔ واریانس f حداکثر C برابر میانگین مجذور گرادیان است و C به بُعد بستگی ندارد. وسط: نمودار ثابت پوانکارهٔ دقیق شکل‌های ایزوتروپ در بُعد ۱ تا ۱۰۰۰: گاوسی ۱، مکعب ۱۲ بر π² یعنی حدود ۱٫۲۱۶، و گوی که از ۱٫۲۱۶ به سمت ۱ می‌آید (۱٫۰۰۱۰ در n=۱۰۰۰). سمت چپ: بهترین کران‌های شناخته‌شده به تفکیک سال، از ریشهٔ n در ۱۹۹۵ تا n به توان ۱/۴، زیرچندجمله‌ای (۲۰۲۱)، چندلگاریتمی (۲۰۲۲ تا ۲۰۲۶) و کران ثابتِ ادعاشده در سه پیش‌چاپ ۲۰۲۶. کارت‌های پایین: پرسش در ۱۹۹۵؛ سه پیش‌چاپ ادعای اثبات دارند؛ راستی‌آزمایی ادامه دارد.",
+  "sources": [
+   "R. Kannan, L. Lovász, M. Simonovits, Isoperimetric problems for convex bodies and a localization lemma, Discrete & Computational Geometry 13, 541-559 (1995), doi:10.1007/BF02574061",
+   "Z. Song, X. Zhang, An O(1) Bound for the KLS Constant, arXiv:2610.01447 (v1 1 Oct 2026, v2 4 Oct 2026; preprint, with Table 1 of previous bounds)",
+   "P. Bizeul, B. Klartag, J. Lehec, Presenting a proof of the Kannan-Lovasz-Simonovits conjecture, arXiv:2610.05474 (preprint)",
+   "K. Balasubramanian, S. Kasiviswanathan, A Dimension-Free Bound on the Poincare Constant of Isotropic Log-Concave Measures, arXiv:2610.07728 (preprint)",
+   "Poincare constants of the cube and ball computed in this project (cube: interval of length 2*sqrt(3), C_P = 12/pi^2; ball: first Neumann eigenvalue via Bessel functions)",
+   "Photos: Ken Larsen, cut poudretteite, Smithsonian NMNH (CC0); Pseudopanax, amethyst cluster (public domain)"
+  ]
+ },
+ {
+  "id": "006_noether",
+  "slug": "noether",
+  "date": "2026-10-28",
+  "topic": "Physics",
+  "title": "Noether’s Theorem",
+  "title_fa": "قضیهٔ نوتر",
+  "caption": "Noether's theorem: every continuous symmetry of a physical law hides a conserved quantity. Shift in space gives momentum, rotation gives angular momentum, shift in time gives energy. Published by Emmy Noether in 1918.",
+  "caption_fa": "قضیهٔ نوتر: هر تقارن پیوستهٔ یک قانون فیزیکی، یک کمیت پایسته را پنهان دارد. جابه‌جایی در فضا تکانه می‌دهد، چرخش تکانهٔ زاویه‌ای، و جابه‌جایی در زمان انرژی. امی نوتر آن را در ۱۹۱۸ منتشر کرد.",
+  "alt": "Infographic titled Noether's Theorem. Left: the statement dQ/dt = 0 and three symmetry rows: shift in space gives linear momentum, rotation gives angular momentum, shift in time gives energy. Centre: an orbit under a central force with flat lines for angular momentum and energy over 10 orbits (worst relative drift about 1e-12), and an oscillator energy chart: with a fixed spring energy stays at 1, with a spring that changes in time the energy grows 337 times. Right: Emmy Noether timeline: born 1882 in Erlangen; doctorate 1907; invited to Gottingen 1915; theorem published 1918; moves to Bryn Mawr 1933; dies 1935. Bottom cards: the 1918 paper and its translation; three classic cases; 108 years since publication.",
+  "alt_fa": "اینفوگرافیک «قضیهٔ نوتر». سمت راست: گزارهٔ dQ/dt = 0 و سه ردیف تقارن: جابه‌جایی در فضا تکانهٔ خطی، چرخش تکانهٔ زاویه‌ای، جابه‌جایی در زمان انرژی. وسط: مداری زیر نیروی مرکزی با خطوط مسطح تکانهٔ زاویه‌ای و انرژی در ۱۰ دور (بدترین رانش نسبی حدود ۱۰ به توان −۱۲) و نمودار انرژی نوسانگر: با فنر ثابت انرژی ثابت می‌ماند، و با فنری که با زمان تغییر می‌کند انرژی ۳۳۷ برابر می‌شود. سمت چپ: خط زمانی امی نوتر: ۱۸۸۲ زاده در ارلانگن؛ ۱۹۰۷ دکتری؛ ۱۹۱۵ دعوت به گوتینگن؛ ۱۹۱۸ انتشار قضیه؛ ۱۹۳۳ رفتن به برین مور؛ ۱۹۳۵ درگذشت. کارت‌های پایین: مقالهٔ ۱۹۱۸ و ترجمه‌اش؛ سه حالت کلاسیک؛ ۱۰۸ سال از انتشار.",
+  "sources": [
+   "E. Noether, Invariante Variationsprobleme, Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse, 1918, pp. 235-257 (Göttingen Digitalisierungszentrum scan)",
+   "E. Noether, Invariant Variation Problems, transl. M. A. Tavel, Transport Theory and Statistical Physics 1(3), 183-207 (1971); arXiv:physics/0503066v3",
+   "J. J. O'Connor, E. F. Robertson, Amalie Emmy Noether, MacTutor History of Mathematics, University of St Andrews",
+   "Graduate Classical Mechanics, Lecture 7: Constraint Forces, Continuous Symmetry, and Noether's Theorem, City College of New York",
+   "Orbit and oscillator numbers computed in this project (DOP853 integrator, rtol 1e-13)",
+   "Photos: Göttingen engraving, Meyer's Universum vol. 5 (1838), public domain; W. A. Bentley snowflake No. 172, Smithsonian Institution Archives, CC0"
+  ]
+ },
+ {
+  "id": "007_planck_scale",
+  "slug": "planck-scale",
+  "date": "2026-10-29",
+  "topic": "Physics",
+  "title": "From the Universe to the Planck Length",
+  "title_fa": "از جهان تا طول پلانک",
+  "caption": "How small is the Planck length? 1.616 255 × 10^-35 m (CODATA 2022). About 5 × 10^61 of them would span the observable universe, which NASA puts at about 92 billion light-years across.",
+  "caption_fa": "طول پلانک چقدر کوچک است؟ ۱٫۶۱۶ ۲۵۵ × ۱۰⁻³⁵ متر (CODATA 2022). حدود ۵ × ۱۰⁶۱ از آن‌ها جهان مشاهده‌پذیر را می‌پوشاند، که ناسا قطرش را حدود ۹۲ میلیارد سال نوری می‌داند.",
+  "alt": "Infographic titled From the Universe to the Planck Length. Left: the formula l_P equals the square root of h-bar G over c cubed, with the three constants (h-bar exact, G 6.674 30 times 10 to the minus 11, c 299 792 458 metres per second) and the results: Planck length 1.616 255 times 10 to the minus 35 metres, Planck time 5.391 247 times 10 to the minus 44 seconds. Centre: a vertical ladder of 63 powers of ten from the observable universe (about 92 billion light-years across) through the Sun, Earth, hydrogen atom and proton down to the Planck length, with gaps of about 18.1 orders of magnitude from the universe to the Sun, 17.1 from Earth to the hydrogen atom and 19.7 from the proton to the Planck length. Right: Planck's papers of 1899, 1900, 1901, the exact definition of h in 2019 and CODATA 2022. Bottom cards: 92 billion light-years; about 5 times 10 to the 61 Planck lengths across the universe; 19.7 orders of magnitude between a proton and the Planck length.",
+  "alt_fa": "اینفوگرافیک «از جهان تا طول پلانک». سمت راست: فرمول l_P برابر ریشهٔ دوم ħG بر c به توان ۳، با سه ثابت (ħ دقیق، G برابر ۶٫۶۷۴ ۳۰ × ۱۰⁻¹¹، c برابر ۲۹۹ ۷۹۲ ۴۵۸ متر بر ثانیه) و نتیجه‌ها: طول پلانک ۱٫۶۱۶ ۲۵۵ × ۱۰⁻³⁵ متر و زمان پلانک ۵٫۳۹۱ ۲۴۷ × ۱۰⁻⁴⁴ ثانیه. وسط: نردبانی عمودی از ۶۳ توان ده، از جهان مشاهده‌پذیر (حدود ۹۲ میلیارد سال نوری قطر) تا خورشید، زمین، اتم هیدروژن و پروتون و طول پلانک، با فاصله‌هایی حدود ۱۸٫۱ مرتبه از جهان تا خورشید، ۱۷٫۱ از زمین تا اتم هیدروژن و ۱۹٫۷ از پروتون تا طول پلانک. سمت چپ: مقاله‌های پلانک در ۱۸۹۹، ۱۹۰۰ و ۱۹۰۱، تعریف دقیق h در ۲۰۱۹ و CODATA 2022. کارت‌های پایین: ۹۲ میلیارد سال نوری؛ حدود ۵ × ۱۰⁶۱ طول پلانک در جهان؛ ۱۹٫۷ مرتبهٔ بزرگی بین پروتون و طول پلانک.",
+  "sources": [
+   "P. J. Mohr, D. B. Newell, B. N. Taylor, E. Tiesinga, CODATA recommended values of the fundamental physical constants: 2022, Rev. Mod. Phys. 97, 025002 (30 April 2025), doi:10.1103/RevModPhys.97.025002; NIST extensive listing",
+   "NASA, How Big is Space? We Asked a NASA Expert: Episode 61 (21 May 2025): the observable universe is about 92 billion light-years across",
+   "NASA NSSDC Planetary Fact Sheets: Earth volumetric mean radius 6371.000 km; Sun volumetric mean radius 695,700 km",
+   "M. Planck, Ueber irreversible Strahlungsvorgaenge, Fuenfte Mittheilung (Schluss), Sitzungsberichte Berlin 1899, 440-480 (session of 18 May 1899; natural units pp. 479-480)",
+   "M. Planck, Zur Theorie des Gesetzes der Energieverteilung im Normalspectrum, Verhandlungen der DPG 2, 237-245 (14 Dec 1900)",
+   "M. Planck, Ueber das Gesetz der Energieverteilung im Normalspectrum, Annalen der Physik 309, 553-563 (1901), doi:10.1002/andp.19013090310",
+   "NIST SP 330 (2019), the SI Brochure: h fixed at 6.626 070 15 x 10^-34 J s (revised SI from 20 May 2019)",
+   "Images: Tarantula Nebula NASA/JPL-Caltech (PIA23647); Helix Nebula NASA/JPL-Caltech/Univ. of Ariz. (PIA09178); Hubble Deep Field, R. Williams (STScI), the Hubble Deep Field Team and NASA; Max Planck, Hugo Erfurth, 1938 (public domain)"
+  ]
+ },
+ {
+  "id": "008_euler_bridges",
+  "slug": "euler-bridges",
+  "date": "2026-10-30",
+  "topic": "Mathematics",
+  "title": "Can You Cross All Seven Bridges Once?",
+  "title_fa": "آیا می‌توان از هر هفت پل فقط یک بار گذشت؟",
+  "caption": "Can you cross all seven bridges of Königsberg exactly once? No. Euler showed why: a land mass with an odd number of bridges must be a start or an end, and Königsberg has four (5, 3, 3, 3). Any one extra bridge would fix it.",
+  "caption_fa": "آیا می‌توان از هر هفت پل کونیگسبرگ فقط یک بار گذشت؟ نه. اویلر نشان داد چرا: خشکی با تعداد فرد پل باید آغاز یا پایان مسیر باشد و کونیگسبرگ چهار تا دارد (۵، ۳، ۳، ۳). یک پل بیشتر مسئله را حل می‌کرد.",
+  "alt": "Infographic titled Can You Cross All Seven Bridges Once. Left: a 17th-century engraved map of Königsberg by Merian and a postcard of the Grüne Brücke, one of the seven bridges. Centre: a graph of the four land masses, Kneiphof island, the north bank, the south bank and the east island, joined by seven bridges, with 5, 3, 3 and 3 bridges at the four land masses, all odd. Euler's rule: a walk crossing every bridge once needs zero or two odd land masses, so none exists. A second graph adds one bridge, leaves two odd land masses, and shows a numbered route. Right: Euler's 1753 portrait and a timeline: presented 1735, published 1741, letter to Goldbach 1750, polyhedron papers printed 1758, death 1783. Cards: 7 bridges; 0 routes among 645,120 ordered crossings; 866 works in Eneström's index.",
+  "alt_fa": "اینفوگرافیک «آیا می‌توان از هر هفت پل فقط یک بار گذشت؟». سمت راست: نقشهٔ حکاکی‌شدهٔ قرن هفدهم کونیگسبرگ اثر مریان و کارت‌پستالی از پل سبز، یکی از هفت پل. وسط: گرافی از چهار خشکی، جزیرهٔ کنایپهوف، ساحل شمالی، ساحل جنوبی و جزیرهٔ شرقی، با هفت پل؛ تعداد پل‌ها ۵، ۳، ۳ و ۳ است و همه فرد هستند. قاعدهٔ اویلر: مسیری که از هر پل یک بار بگذرد صفر یا دو خشکی با تعداد فرد پل می‌خواهد؛ پس چنین مسیری نیست. گراف دوم یک پل اضافه می‌کند، دو خشکی فرد می‌ماند و مسیری شماره‌گذاری‌شده نشان می‌دهد. سمت چپ: پرتره اویلر (۱۷۵۳) و خط زمانی: ارائه ۱۷۳۵، انتشار ۱۷۴۱، نامه به گلدباخ ۱۷۵۰، چاپ مقاله‌های چندوجهی ۱۷۵۸، درگذشت ۱۷۸۳. کارت‌ها: ۷ پل؛ ۰ مسیر در میان ۶۴۵٬۱۲۰ ترتیب عبور؛ ۸۶۶ اثر در فهرست انستروم.",
+  "sources": [
+   "L. Euler, Solutio problematis ad geometriam situs pertinentis (E53), Commentarii academiae scientiarum Petropolitanae 8 (1736) [published 1741], 128-140; presented 26 August 1735 (Euler Archive, E53 page)",
+   "Euler Archive (MAA / University of the Pacific): E53; E230 and E231 (Novi Commentarii 4, published 1758, pp. 109-140 and 140-160); Goldbach letter OO863, 14 November 1750; Eneström index: 866 works",
+   "MacTutor (University of St Andrews): Leonhard Euler biography (born 15 April 1707, Basel; died 18 September 1783, St Petersburg); History of Topology",
+   "O. Viro, Stony Brook University MAT 150, Lecture 2 (Traversing nets of curves): zero or two odd nodes; Königsberg has four",
+   "Princeton University, Math Alive, Graph Theory Part 1: degrees 3, 3, 3 and 5",
+   "C. J. Huffman, Euler Archive Spotlight on E53, Euleriana 1(1), 2021, 141-143: credited as the genesis of graph theory",
+   "Images (public domain): Koningsberga, attributed to M. Merian (d. 1650), BnF Gallica btv1b532358047; Königsberg i. Pr. Grüne Brücke, postcard, Bildarchiv Ostpreußen via Wikimedia Commons; J. E. Handmann, Leonhard Euler, 1753, Kunstmuseum Basel",
+   "Computed here: all 645,120 directed orderings of the 7 bridges checked, 0 valid walks; every single added bridge between two different land masses gives a walk (6 of 6 pairs)"
+  ]
+ }
+]

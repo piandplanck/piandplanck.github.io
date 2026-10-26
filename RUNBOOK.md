@@ -19,3 +19,6 @@ The build shows only pieces dated on or before the most recent Saturday (Pacific
 
 ## Rules
 Nothing secret in this public repo. No dates printed on graphics. Sources listed on each piece page.
+
+## Downloads
+Each piece page offers a 4096x2304 JPG and a PDF per language. Files live in `_src/dl/<id>_<lang>_4096.jpg` and `<id>_<lang>.pdf` (branded versions). Add the 4 files per new piece with the other assets.

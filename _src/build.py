@@ -47,6 +47,7 @@ nav{{margin-left:auto;display:flex;gap:18px;font-size:16px}}nav a{{color:var(--g
 .card h3{{font-size:23px;margin:.2em 0 0}}
 .soon{{background:var(--panel);border-radius:14px;padding:34px;margin:24px 0 60px;border-left:6px solid var(--br)}}
 .pic{{width:100%;border-radius:14px;border:2px solid #2a303b;display:block}}
+.dl{{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0}}.dl b{{color:var(--gray);font-size:14px;letter-spacing:.05em;text-transform:uppercase;margin-right:6px}}.dl a{{background:var(--cu);color:#14171c;font-weight:700;padding:9px 18px;border-radius:10px;text-decoration:none;font-size:15px}}.dl a:hover{{filter:brightness(1.12)}}.fa .dl{{direction:rtl}}
 .tabs{{display:flex;gap:8px;margin:20px 0}}.tabs button{{background:var(--panel);color:var(--ink);border:2px solid #2a303b;border-radius:10px;padding:8px 22px;font:600 16px Inter;cursor:pointer}}
 .tabs button.on{{border-color:var(--cu);color:var(--cu)}}
 .lang{{display:none}}.lang.on{{display:block}}.fa{{direction:rtl;text-align:right;font-family:Vazirmatn,Inter,sans-serif;line-height:1.9}}
@@ -70,7 +71,14 @@ def shell(title, desc, body, path="/", og="/assets/og.png"):
 def img_for(p, lang):
     for suf in ("", "_t"):
         shutil.copy(f"{HERE}/img/{p['id']}_{lang}{suf}.jpg", f"{OUT}/assets/img/{p['id']}_{lang}{suf}.jpg")
+    os.makedirs(f"{OUT}/assets/dl", exist_ok=True)
+    for f in (f"{p['id']}_{lang}_4096.jpg", f"{p['id']}_{lang}.pdf"):
+        shutil.copy(f"{HERE}/dl/{f}", f"{OUT}/assets/dl/{f}")
     return f"/assets/img/{p['id']}_{lang}.jpg", f"/assets/img/{p['id']}_{lang}_t.jpg"
+def dl_bar(p, lang):
+    i = p["id"]; fa = lang == "fa"
+    lab = ("دانلود با کیفیت بالا", "تصویر ۴۰۹۶×۲۳۰۴ (JPG)", "PDF چاپی") if fa else ("Download high resolution", "Image 4096×2304 (JPG)", "PDF for print")
+    return f'<div class="dl"><b>{lab[0]}</b><a href="/assets/dl/{i}_{lang}_4096.jpg" download>{lab[1]}</a><a href="/assets/dl/{i}_{lang}.pdf" download>{lab[2]}</a></div>'
 def linkify(t): return re.sub(r"(https?://[^\s)]+)", r'<a href="\1">\1</a>', E(t))
 def piece_page(p):
     en = img_for(p, "en"); fa = img_for(p, "fa"); slug = p["slug"]
@@ -80,10 +88,10 @@ def piece_page(p):
     body = f'''<p class="meta">{E(p["topic"].split("(")[0].strip())} · {ds}</p>
 <div class="tabs"><button class="on" data-l="en">English</button><button data-l="fa">فارسی</button></div>
 <section class="lang on" id="en"><h1>{E(p["title"])}</h1><img class="pic" src="{en[0]}" alt="{E(p["alt"])}">
-<div class="box"><h3>In short</h3><p>{E(p["caption"])}</p></div>
+{dl_bar(p,"en")}<div class="box"><h3>In short</h3><p>{E(p["caption"])}</p></div>
 <div class="box" style="border-color:var(--br)"><h3>Sources</h3><ol class="src">{src}</ol></div></section>
 <section class="lang fa" id="fa"><h1>{E(p["title_fa"])}</h1><img class="pic" src="{fa[0]}" alt="{E(p["alt_fa"])}">
-<div class="box"><h3>خلاصه</h3><p>{E(p["caption_fa"])}</p></div>
+{dl_bar(p,"fa")}<div class="box"><h3>خلاصه</h3><p>{E(p["caption_fa"])}</p></div>
 <div class="box" style="border-color:var(--br)"><h3>منابع</h3><ol class="src" style="direction:ltr;text-align:left">{src}</ol></div></section>
 <p><a href="/archive.html">← All posts</a></p>
 <script>const b=document.querySelectorAll('.tabs button');function s(l){{b.forEach(x=>x.classList.toggle('on',x.dataset.l==l));document.querySelectorAll('.lang').forEach(x=>x.classList.toggle('on',x.id==l));history.replaceState(null,'','#'+l)}}

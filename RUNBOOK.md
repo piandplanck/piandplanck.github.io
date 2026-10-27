@@ -10,6 +10,8 @@ Live site: https://piandplanck.github.io  (repo piandplanck/piandplanck.github.i
 - `.github/workflows/site.yml`: build and deploy on push, every Sunday 18:00 UTC, and manually
 
 ## Weekly publishing rule
+Week 1 runs Sat 31 Oct to Fri 6 Nov 2026 (moved from 24-30 Oct); later weeks follow Sat to Fri.
+
 The build shows only pieces dated on or before the most recent Saturday (Pacific). New pieces can be pushed any time; they stay hidden until the next Sunday build.
 
 ## Add a piece

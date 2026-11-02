@@ -1,6 +1,6 @@
 """Pi & Planck site builder (standard library only).
 Usage: python3 _src/build.py --out _site [--through YYYY-MM-DD]
-Weekly publishing: shows only pieces dated on or before --through (default: the most recent Saturday, Pacific time)."""
+Daily publishing: shows only pieces dated on or before --through (default: today, Pacific time)."""
 import json, os, re, sys, shutil, html, datetime
 from zoneinfo import ZoneInfo
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -8,9 +8,7 @@ OUT = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else "_site"
 PAL = {"bg": "#15171C", "panel": "#1F232B", "cu": "#FF9F68", "cy": "#7FD0FF", "br": "#F4D35E", "ink": "#F4F5F7", "gray": "#9AA3B2"}
 if "--through" in sys.argv: through = sys.argv[sys.argv.index("--through") + 1]
 else:
-    d = datetime.datetime.now(ZoneInfo("America/Los_Angeles")).date() - datetime.timedelta(days=1)
-    while d.weekday() != 5: d -= datetime.timedelta(days=1)   # weekly: show everything up to the most recent Saturday
-    through = d.isoformat()
+    through = datetime.datetime.now(ZoneInfo("America/Los_Angeles")).date().isoformat()   # daily: show everything dated up to today (Pacific)
 ALL = json.load(open(HERE + "/data/pieces.json"))
 pieces = sorted([p for p in ALL if p["date"] <= through], key=lambda p: p["date"], reverse=True)
 if os.path.exists(OUT): shutil.rmtree(OUT)
@@ -105,13 +103,13 @@ chips = "".join(f'<a href="{u}">{n}</a>' for n, u in SOC)
 if pieces:
     latest = f'<h2>Latest</h2><div class="grid">{"".join(card(p) for p in pieces[:6])}</div><p><a href="/archive.html">See all {len(pieces)} posts →</a></p>'
 else:
-    latest = '<div class="soon"><h2>The first posts arrive soon</h2><p>Daily math and physics infographics, in English and Farsi. Follow an account below and check back: this page is updated every Sunday with the week’s posts.</p></div>'
+    latest = '<div class="soon"><h2>The first posts arrive soon</h2><p>Daily math and physics infographics, in English and Farsi. Follow an account below and check back: this page is updated every day with the day’s post.</p></div>'
 home = f'''<section class="hero"><img src="/assets/logo.png" alt="Pi &amp; Planck atom-pi logo"><div>
 <h1>Pi <b>&amp;</b> Planck</h1><div class="tag"><span>Math</span> &amp; <span>physics</span>, drawn. Measure everything. Start at π.</div>
 <div class="chips">{chips}</div></div></section>{latest}
 <div class="box"><h3>What you will find here</h3><p>A new infographic every day: problems with checked solutions, new discoveries, history, and how big or small things really are. Every post has a sourced write-up in English and فارسی.</p></div>'''
 open(OUT + "/index.html", "w").write(shell("Pi & Planck: math & physics, drawn", "Daily math and physics infographics in English and Farsi. Measure everything. Start at π.", home))
-arch = "<h1>Archive</h1>" + (f'<div class="grid">{"".join(card(p) for p in pieces)}</div>' if pieces else "<p>Nothing here yet. The first week’s posts will appear after the first Sunday update.</p>")
+arch = "<h1>Archive</h1>" + (f'<div class="grid">{"".join(card(p) for p in pieces)}</div>' if pieces else "<p>Nothing here yet. The first posts will appear here soon.</p>")
 open(OUT + "/archive.html", "w").write(shell("Archive | Pi & Planck", "All Pi & Planck posts.", arch))
 about = f'''<h1>About</h1><div class="box"><p>Pi &amp; Planck is a daily math and physics account: one infographic a day, in English and Farsi, built from primary sources (journals, arXiv with status stated, university and observatory pages, NASA, CERN, NIST, MacTutor). Numbers are recomputed in code before they are published.</p>
 <p>The name joins π, the constant of the circle, with Planck, the scale where known physics runs out.</p></div>

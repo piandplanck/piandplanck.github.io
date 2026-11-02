@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 18 * * 0'   # every Sunday 18:00 UTC (11:00 PDT / 10:00 PST)
+    - cron: '0 18 * * *'   # every day 18:00 UTC (11:00 PDT / 10:00 PST), after the 09:00 and 09:15 posts
   workflow_dispatch:
 permissions:
   contents: read
@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build site (weekly publishing rule is inside build.py)
+      - name: Build site (daily publishing rule is inside build.py)
         run: python3 _src/build.py --out _site
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

@@ -7,12 +7,12 @@ Live site: https://piandplanck.github.io  (repo piandplanck/piandplanck.github.i
 - `_src/img/<id>_en.jpg`, `<id>_fa.jpg` (1600x900) and `_t.jpg` thumbnails (640x360)
 - `_src/assets/`: logo, favicon, og image, headline font
 - `_src/build.py`: standard-library builder -> `_site/`
-- `.github/workflows/site.yml`: build and deploy on push, every Sunday 18:00 UTC, and manually
+- `.github/workflows/site.yml`: build and deploy on push, every day 18:00 UTC, and manually
 
-## Weekly publishing rule
+## Daily publishing rule
 Week 1 runs Sat 31 Oct to Fri 6 Nov 2026 (moved from 24-30 Oct); later weeks follow Sat to Fri.
 
-The build shows only pieces dated on or before the most recent Saturday (Pacific). New pieces can be pushed any time; they stay hidden until the next Sunday build.
+The build shows only pieces dated on or before today (Pacific). New pieces can be pushed any time ahead of their date; they stay hidden until their day. The daily build runs at 18:00 UTC (10:00 PST / 11:00 PDT), after the 09:00 and 09:15 posts, and every push also rebuilds.
 
 ## Add a piece
 1. Add an entry to `_src/data/pieces.json` (captions without the @handle) and the four images.

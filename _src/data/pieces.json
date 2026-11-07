@@ -280,5 +280,119 @@
    "Counts, 1 to 3 per year and the 2026 months (February, March, November) verified by Python's datetime over 400 years",
    "Image: Perpetual Calendar, c.1848, Library of Congress (public domain by age); A Perpetual Almanack, Newport 1730, Library of Congress; Pocket watch, Robert Roskell, 1820-21, The Met Open Access (CC0)"
   ]
+ },
+ {
+  "id": "016_leibniz",
+  "slug": "leibniz",
+  "date": "2026-11-14",
+  "topic": "Math history",
+  "title": "Leibniz: Pi From a Simple Sum",
+  "title_fa": "لایب‌نیتس: π از یک مجموع ساده",
+  "caption": "Leibniz died on 14 November 1716. His series π/4 = 1 − 1/3 + 1/5 − 1/7 + … needs about 20 000 terms for just 4 decimals of π. He also gave us ∫ and dx, and binary: 14 is 1110.",
+  "caption_fa": "لایب‌نیتس ۱۴ نوامبر ۱۷۱۶ درگذشت. سری او π/4 = 1 − 1/3 + 1/5 − … برای تنها چهار رقم اعشار π حدود ۲۰٬۰۰۰ جمله می‌خواهد. نمادهای ∫ و dx و دودویی هم از اوست: ۱۴ برابر ۱۱۱۰ است.",
+  "alt": "Infographic titled Leibniz: Pi From a Simple Sum. Left: the series pi/4 = 1 - 1/3 + 1/5 - 1/7 + 1/9 - ... and a chart of its first 20 partial sums swinging above and below pi and closing in slowly. Centre: two cards, Binary 1703 with the numbers 1 to 15 drawn as four-bit squares, and the integral sign and dx from 1675; below, bars showing about 20 terms for 1 decimal of pi, 200 for 2, 2000 for 3 and 20 000 for 4. Right: cards on Leibniz's death in Hanover on 14 November 1716, the series being known earlier to Madhava of the Kerala school in the 1300s, and Newton and Leibniz developing calculus independently. Bottom cards: 20 terms for 3.1, 20 000 terms for 3.1416, and 1110 is 14 in binary.",
+  "alt_fa": "اینفوگرافیک «لایب‌نیتس: π از یک مجموع ساده». سمت راست: سری π/4 = 1 − 1/3 + 1/5 − 1/7 + … و نمودار بیست مجموع جزئی نخست که بالا و پایین π نوسان می‌کنند و آرام نزدیک می‌شوند. وسط: دو کارت، دودویی ۱۷۰۳ با عددهای ۱ تا ۱۵ به شکل چهار مربع، و نماد انتگرال و dx از ۱۶۷۵؛ و زیرش میله‌هایی که نشان می‌دهند برای یک رقم اعشار π حدود ۲۰ جمله، برای دو رقم ۲۰۰، برای سه رقم ۲۰۰۰ و برای چهار رقم ۲۰٬۰۰۰ جمله لازم است. سمت چپ: کارت‌هایی دربارهٔ درگذشت لایب‌نیتس در هانوفر در ۱۴ نوامبر ۱۷۱۶، آشنایی مادهاوا از مکتب کرالا با این سری در سدهٔ ۱۳۰۰ و ساخته‌شدن مستقل حساب دیفرانسیل توسط نیوتن و لایب‌نیتس. کارت‌های پایین: ۲۰ جمله برای ۳٫۱، ۲۰٬۰۰۰ جمله برای ۳٫۱۴۱۶ و ۱۱۱۰ همان ۱۴ در دودویی است.",
+  "sources": [
+   "MacTutor History of Mathematics, G. W. Leibniz biography (University of St Andrews)",
+   "MacTutor History of Mathematics, Madhava of Sangamagramma biography (University of St Andrews)",
+   "G. W. Leibniz, Explication de l'arithmetique binaire, Memoires de l'Academie Royale des Sciences (1703)",
+   "Partial sums, term counts and binary forms computed for this graphic (Python)",
+   "Photos: (12:30) Jacob Leupold, engraving of Leibniz's calculator, Library of Congress (public domain); (18:00) Thomas de Colmar arithmometer, 1821, photo Daderot (CC0)"
+  ]
+ },
+ {
+  "id": "017_benford",
+  "slug": "benfords-law",
+  "date": "2026-11-15",
+  "topic": "Numbers and data",
+  "title": "Why 1 Leads the Way",
+  "title_fa": "چرا ۱ پیشتاز است؟",
+  "caption": "Why do so many numbers start with 1? In many real datasets about 30.1% do, and only 4.6% start with 9. Benford's law: P(d) = log₁₀(1 + 1/d). We checked it on powers of 2, Fibonacci numbers and factorials.",
+  "caption_fa": "چرا این‌همه عدد با ۱ شروع می‌شود؟ در بسیاری از داده‌های واقعی حدود ۳۰٫۱ درصد عددها با ۱ شروع می‌شوند و فقط ۴٫۶ درصد با ۹. قانون بنفورد: P(d) = log₁₀(1 + 1/d). آن را روی توان‌های ۲، عددهای فیبوناچی و فاکتوریل‌ها آزمودیم.",
+  "alt": "Infographic titled Why So Many Numbers Start With 1. Left: a bar chart of the chance that a number starts with each digit 1 to 9 under Benford's law, falling from 30.1 percent for 1 to 4.6 percent for 9, with a dashed line at 11.1 percent for equal digits, and the formula P(d) = log10(1 + 1/d). Centre: three small bar charts for the first digits of the first 1000 powers of 2 (30.1 percent start with 1), the first 1000 Fibonacci numbers (30.1 percent) and the factorials 1! to 1000! (29.3 percent), each close to the law, and a logarithmic ruler from 1 to 10 where the stretch for 1 is the longest. Right: growth of 7 percent a year takes 10.2 years to go from 1000 to 2000 but 1.6 years from 9000 to 10 000; a card on Simon Newcomb's 1881 note about worn logarithm-table pages; and a card on Frank Benford's 1938 test of 20,229 numbers. Bottom cards: 30.1 percent begin with 1, 4.6 percent begin with 9, and 1 is 6.6 times more likely than 9.",
+  "alt_fa": "اینفوگرافیک «چرا این‌همه عدد با ۱ شروع می‌شود». سمت راست: نمودار میله‌ای احتمال شروع یک عدد با هر رقم ۱ تا ۹ طبق قانون بنفورد، از ۳۰٫۱ درصد برای ۱ تا ۴٫۶ درصد برای ۹، با خط‌چین ۱۱٫۱ درصد برای رقم‌های برابر، و فرمول P(d) = log10(1 + 1/d). وسط: سه نمودار کوچک برای رقم اول هزار توان اول ۲ (۳۰٫۱ درصد با ۱)، هزار عدد فیبوناچی اول (۳۰٫۱ درصد) و فاکتوریل‌های ۱ تا ۱۰۰۰ (۲۹٫۳ درصد)، همگی نزدیک به قانون، و یک خط‌کش لگاریتمی از ۱ تا ۱۰ که بازهٔ ۱ در آن از همه بلندتر است. سمت چپ: رشد ۷ درصد در سال برای رفتن از ۱۰۰۰ به ۲۰۰۰ حدود ۱۰٫۲ سال و از ۹۰۰۰ به ۱۰۰۰۰ حدود ۱٫۶ سال طول می‌کشد؛ کارتی دربارهٔ یادداشت ۱۸۸۱ سایمون نیوکام و صفحه‌های فرسودهٔ جدول لگاریتم؛ و کارتی دربارهٔ آزمون ۱۹۳۸ فرانک بنفورد روی ۲۰٬۲۲۹ عدد. کارت‌های پایین: ۳۰٫۱ درصد با ۱ شروع می‌شوند، ۴٫۶ درصد با ۹، و شروع با ۱ حدود ۶٫۶ برابر محتمل‌تر از ۹ است.",
+  "sources": [
+   "S. Newcomb, Note on the frequency of use of the different digits in natural numbers, American Journal of Mathematics 4 (1881) 39-40",
+   "F. Benford, The law of anomalous numbers, Proceedings of the American Philosophical Society 78(4) (1938) 551-572",
+   "T. P. Hill, A statistical derivation of the significant-digit law, Statistical Science 10(4) (1995) 354-363",
+   "Digit counts for powers of 2, Fibonacci numbers and factorials computed for this graphic (Python, exact integers)",
+   "Photos: (12:30) Keuffel & Esser Model 4090 slide rule, MIT Museum, photo Daderot (CC0); (18:00) Merchant's ledger, Sept 1833, Pittsboro NC, via Cumberland County Public Library and DPLA (public domain)"
+  ]
+ },
+ {
+  "id": "018_leonids",
+  "slug": "leonids",
+  "date": "2026-11-16",
+  "topic": "The universe",
+  "title": "The Leonid Meteors",
+  "title_fa": "شهاب‌های اسدی",
+  "caption": "The Leonid meteors come from dust of comet Tempel–Tuttle, which returns about every 33 years. Grains hit our air at about 71 km/s, roughly 255 600 km/h. The predicted peak this year is about 15 an hour under ideal skies; some past years were storms.",
+  "caption_fa": "شهاب‌های اسدی از غبار دنباله‌دار تمپل–تاتل می‌آیند که تقریباً هر ۳۳ سال برمی‌گردد. دانه‌ها با حدود ۷۱ کیلومتر بر ثانیه، یعنی حدود ۲۵۵٬۶۰۰ کیلومتر بر ساعت، به هوا می‌خورند. اوج پیش‌بینی‌شدهٔ امسال حدود ۱۵ شهاب در ساعت زیر آسمان ایده‌آل است.",
+  "alt": "Infographic titled The Leonid Meteors. Left: a sky chart of the Sickle of Leo and the rest of the Lion with the Leonid radiant marked inside the sickle and meteor trails fanning out from it; Regulus is labelled. Below it a tip: after midnight, away from city lights. Centre: a timeline of comet 55P/Tempel-Tuttle: closest approaches to the Sun in 1833, 1866, 1899, 1932, 1965, 1998 and the next in 2031, with reported meteor storms marked in 1799, 1833, 1866, 1966 and 1999 to 2002. Two panels: speed bars (airliner 0.25 km/s, rifle bullet 1, Space Station 7.7, Leonid 71) and a 1 milligram grain carrying 2.5 kilojoules, like a 1 kg ball at 71 m/s. Right: cards on comet dust, the head-on collision and storms. Bottom: 71 km/s, 33 years, 15 per hour.",
+  "alt_fa": "اینفوگرافیک «شهاب‌های اسدی». سمت راست: نقشهٔ آسمان با داس شیر و بقیهٔ صورت فلکی شیر، کانون شهاب‌های اسدی درون داس و رد شهاب‌هایی که از آن پخش می‌شوند؛ قلب‌الاسد نام‌گذاری شده است. زیر آن نکته: بعد از نیمه‌شب، دور از نور شهر. وسط: خط زمانی دنباله‌دار تمپل–تاتل: نزدیک‌ترین فاصله تا خورشید در ۱۸۳۳، ۱۸۶۶، ۱۸۹۹، ۱۹۳۲، ۱۹۶۵، ۱۹۹۸ و بعدی ۲۰۳۱ و طوفان‌های گزارش‌شده در ۱۷۹۹، ۱۸۳۳، ۱۸۶۶، ۱۹۶۶ و ۱۹۹۹ تا ۲۰۰۲. دو کادر: میله‌های سرعت (هواپیما ۰٫۲۵، گلوله ۱، ایستگاه فضایی ۷٫۷، شهاب اسدی ۷۱ کیلومتر بر ثانیه) و دانهٔ ۱ میلی‌گرمی با ۲٫۵ کیلوژول انرژی، برابر توپ ۱ کیلوگرمی با ۷۱ متر بر ثانیه. سمت چپ: کارت‌هایی دربارهٔ غبار دنباله‌دار، برخورد رودررو و طوفان‌ها. پایین: ۷۱ کیلومتر بر ثانیه، ۳۳ سال، ۱۵ در ساعت.",
+  "sources": [
+   "International Meteor Organization, Meteor Shower Calendar (Leonids)",
+   "NASA Meteoroid Environment Office, Leonids",
+   "NASA JPL Small-Body Database, 55P/Tempel-Tuttle (orbital period about 33 years)",
+   "Speed conversion and kinetic energy (1/2 m v^2) computed for this graphic",
+   "Photos: (12:30) NASA/Bill Ingalls (a Perseid meteor, not a Leonid; public domain); (18:00) NASA/Bill Ingalls (a Perseid meteor, not a Leonid; public domain)"
+  ]
+ },
+ {
+  "id": "019_mobius",
+  "slug": "mobius-strip",
+  "date": "2026-11-17",
+  "topic": "Shapes and space",
+  "title": "The Strip With One Side",
+  "title_fa": "نواری با یک رو",
+  "caption": "Give a paper strip one half-twist and tape the ends: you get a Möbius strip, with one side and one edge. Cut it down the middle and it stays in one piece, twice as long. Möbius was born on this day in 1790.",
+  "caption_fa": "یک نوار کاغذی را نیم‌پیچ بدهید و دو سرش را بچسبانید: نوار موبیوس با یک رو و یک لبه. اگر از وسط ببُریدش، یک تکه می‌ماند، دو برابر بلندتر. موبیوس چنین روزی در ۱۷۹۰ به دنیا آمد.",
+  "alt": "Infographic titled The Strip With One Side. Left: a 3D drawing of a Möbius strip with its single edge traced in orange then blue, and three steps: take a strip, add one half-twist, tape the ends. Centre: four drawn bands with 0, 1, 2 and 3 half-twists; 0 and 2 twists give 2 sides and 2 edges, 1 and 3 twists give 1 side and 1 edge. Right: what happens when each band is cut down the middle (two thin bands, one band twice as long, two linked bands, one knotted band), a card on Möbius and Listing finding the strip independently in 1858, and a card on Möbius's birth on 17 November 1790. Bottom cards: 1 side, 1 edge, and 2 times as long when cut down the middle.",
+  "alt_fa": "اینفوگرافیک «نواری با یک رو». سمت راست: نقاشی سه‌بعدی نوار موبیوس با لبهٔ یگانه‌اش که اول نارنجی و بعد آبی دنبال شده، و سه گام: نواری بردارید، یک نیم‌پیچ بدهید، دو سر را بچسبانید. وسط: چهار نوار با صفر، یک، دو و سه نیم‌پیچ؛ صفر و دو پیچ دو رو و دو لبه دارند و یک و سه پیچ یک رو و یک لبه. سمت چپ: نتیجهٔ بریدن هر نوار از وسط (دو نوار باریک، یک نوار دو برابر بلندتر، دو نوار به‌هم‌گره، یک نوار گره‌خورده)، کارتی دربارهٔ کشف مستقل نوار توسط موبیوس و لیستینگ در ۱۸۵۸ و کارتی دربارهٔ تولد موبیوس در ۱۷ نوامبر ۱۷۹۰. کارت‌های پایین: یک رو، یک لبه و دو برابر بلندتر پس از برش از وسط.",
+  "sources": [
+   "MacTutor History of Mathematics, A. F. Möbius biography (University of St Andrews)",
+   "MacTutor History of Mathematics, J. B. Listing biography (University of St Andrews)",
+   "A. F. Möbius, Ueber die Bestimmung des Inhaltes eines Polyëders, Berichte Sächs. Ges. Wiss. 17 (1865) 31-68",
+   "Edge counts and cut results verified by a computation for this graphic; 3D bands drawn in Python (matplotlib)",
+   "Photos: (12:30) Möbius band model by A. Harry Wheeler, Smithsonian National Museum of American History (CC0); (18:00) Coiled rope, photo W.carter (CC0)"
+  ]
+ },
+ {
+  "id": "020_mercury",
+  "slug": "einstein-mercury",
+  "date": "2026-11-18",
+  "topic": "The universe",
+  "title": "Einstein and the Orbit of Mercury",
+  "title_fa": "اینشتین و مدار عطارد",
+  "caption": "On 18 November 1915 Einstein showed that general relativity explains Mercury's orbit: Newton left 43 arcseconds per century unexplained, and the new theory gives about 43. Modern measurements agree to about one part in a thousand.",
+  "caption_fa": "اینشتین در ۱۸ نوامبر ۱۹۱۵ نشان داد نسبیت عام مدار عطارد را توضیح می‌دهد: نیوتن ۴۳ ثانیهٔ قوسی در قرن را بی‌توضیح می‌گذاشت و نظریهٔ تازه حدود ۴۳ می‌دهد. اندازه‌گیری‌های امروز تا حدود یک در هزار هم‌خوانند.",
+  "alt": "Infographic titled Einstein and the Orbit of Mercury. Left: a set of overlapping elliptical orbits around the Sun, each turned a little further than the last, showing the perihelion advance, drawn exaggerated. Centre: a bar for the observed advance of 5600 arcseconds per century, almost all explained by Newton (5557) with a small orange slice of 43 left over, and Einstein's formula, advance per orbit = 6 pi G M divided by c squared a (1 minus e squared), with 0.104 arcseconds per orbit times 415.2 orbits per century equals 43.0 arcseconds per century. Right: cards on Le Verrier's 1859 finding, Einstein's presentation on 18 November 1915, and today's measurement of 42.98 plus or minus 0.04. Bottom cards: 43 arcseconds per century, 0.104 arcseconds per orbit, 3 million years for one full turn.",
+  "alt_fa": "اینفوگرافیک «اینشتین و مدار عطارد». سمت راست: چند مدار بیضی روی هم دور خورشید که هر کدام کمی بیشتر از قبلی چرخیده‌اند و پیشروی حضیض را نشان می‌دهند، با اغراق. وسط: نواری برای پیشروی مشاهده‌شدهٔ ۵۶۰۰ ثانیهٔ قوسی در قرن که تقریباً همه‌اش را نیوتن توضیح می‌داد (۵۵۵۷) و برش نارنجی کوچک ۴۳ باقی‌مانده، و فرمول اینشتین: پیشروی در هر مدار برابر 6πGM تقسیم بر c² a (1 − e²)؛ ۰٫۱۰۴ ثانیهٔ قوسی در هر مدار ضرب در ۴۱۵٫۲ مدار در قرن می‌شود ۴۳٫۰ ثانیهٔ قوسی در قرن. سمت چپ: کارت‌هایی دربارهٔ یافتهٔ لووریه در ۱۸۵۹، ارائهٔ اینشتین در ۱۸ نوامبر ۱۹۱۵ و اندازه‌گیری امروز ۴۲٫۹۸ با خطای ۰٫۰۴. کارت‌های پایین: ۴۳ ثانیهٔ قوسی در قرن، ۰٫۱۰۴ ثانیه در هر مدار، ۳ میلیون سال برای یک دور کامل.",
+  "sources": [
+   "A. Einstein, Erklaerung der Perihelbewegung des Merkur aus der allgemeinen Relativitaetstheorie, Sitzungsberichte der Koeniglich Preussischen Akademie der Wissenschaften (1915) 831-839",
+   "U. Le Verrier, anomaly in the motion of Mercury's perihelion (1859), as summarised in the review below",
+   "Tests of General Relativity: A Review, arXiv:1705.04397 (GR prediction 43.03 arcsec per century; measured 42.98 +/- 0.04)",
+   "Orbit values (a, e, period) from the NASA Planetary Fact Sheet; advance per orbit, orbits per century and years per full turn computed for this graphic (Python)",
+   "Photos: (12:30) NASA/Johns Hopkins APL/Carnegie Institution of Washington (MESSENGER); (18:00) NASA/GSFC/Solar Dynamics Observatory (public domain)"
+  ]
+ },
+ {
+  "id": "022_golden",
+  "slug": "golden-ratio",
+  "date": "2026-11-20",
+  "topic": "Numbers and data",
+  "title": "The Golden Ratio",
+  "title_fa": "نسبت طلایی",
+  "caption": "φ = 1.618…: cut a square off a golden rectangle and the rest has the same shape. It shows up in the pentagon, in Fibonacci ratios and in sunflower seeds. But the nautilus is not golden: measured growth is about 1.33.",
+  "caption_fa": "φ = ۱٫۶۱۸…: از مستطیل طلایی یک مربع ببُرید و آنچه می‌ماند همان شکل را دارد. در پنج‌ضلعی، نسبت‌های فیبوناچی و دانه‌های آفتابگردان دیده می‌شود. اما ناتیلوس طلایی نیست: رشد اندازه‌گیری‌شده حدود ۱٫۳۳ است.",
+  "alt": "Infographic titled The Golden Ratio. Left: a golden rectangle divided into squares with a spiral drawn through them, and the equations phi = (1 + square root of 5) / 2 = 1.6180339887 and phi squared = phi + 1. Centre: a line chart of Fibonacci ratios F(n+1)/F(n) for n = 1 to 12 settling on the dashed line at phi, a pentagon with its diagonals where diagonal divided by side equals phi, and a sunflower seed pattern made by turning 137.5 degrees per seed. Right: cards on Euclid's extreme and mean ratio around 300 BC, on phi having an all-ones continued fraction, and a myth check: measured Nautilus shells grow 1.24 to 1.43 per quarter turn, mean 1.33, while a golden spiral grows 1.618. Bottom cards: 1.618, 137.5 degrees and 1.33.",
+  "alt_fa": "اینفوگرافیک «نسبت طلایی». سمت راست: مستطیل طلایی تقسیم‌شده به مربع‌ها با مارپیچی که از آن‌ها می‌گذرد، و معادله‌های φ = (1 + √5) / 2 = 1.6180339887 و φ² = φ + 1. وسط: نمودار خطی نسبت‌های فیبوناچی F(n+1)/F(n) برای n از ۱ تا ۱۲ که روی خط‌چین φ می‌نشیند، پنج‌ضلعی با قطرهایش که در آن قطر بر ضلع برابر φ است، و الگوی دانه‌های آفتابگردان با چرخش ۱۳۷٫۵ درجه برای هر دانه. سمت چپ: کارت‌هایی دربارهٔ «نسبت میانه و دو سر» اقلیدس حدود ۳۰۰ پیش از میلاد، کسر مسلسل همه‌یکِ φ، و آزمون افسانه: ناتیلوس‌های اندازه‌گیری‌شده در هر ربع دور ۱٫۲۴ تا ۱٫۴۳ برابر می‌شوند، میانگین ۱٫۳۳، در حالی که مارپیچ طلایی ۱٫۶۱۸ برابر می‌شود. کارت‌های پایین: ۱٫۶۱۸، ۱۳۷٫۵ درجه و ۱٫۳۳.",
+  "sources": [
+   "Euclid, Elements, Book VI, Definition 3 (extreme and mean ratio)",
+   "C. Falbo, The Golden Ratio: A Contrary Viewpoint, College Mathematics Journal 36(2) (2005) 123-134",
+   "H. Vogel, A better way to construct the sunflower head, Mathematical Biosciences 44 (1979) 179-189",
+   "Fibonacci ratios, Binet formula, pentagon ratio, continued fraction and golden angle computed for this graphic (Python)",
+   "Photos: (12:30) Sliced nautilus shell, Fernbank Museum, photo Daderot (CC0); (18:00) Sunflower, photo NathanScientific (CC0)"
+  ]
  }
 ]
